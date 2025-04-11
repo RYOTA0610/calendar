@@ -78,12 +78,12 @@
 }
 
 /*土曜日*/
-.cal__week-sat {
+.cal__week--sat {
     color: #006fd0;
 }
 
 /*日曜日*/
-.cal__week-sun {
+.cal__week--sun {
     color: #cd0042;
 }
 
