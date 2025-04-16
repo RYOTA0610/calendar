@@ -50,24 +50,24 @@ function updateDays(date) {
     //セルのデータを配列に格納する
     for (let i = 0; i < rows * 7; i++) {
         if (i < prevDays) {
-            dateList.push(prevLastDate + prevDays + 1 + i);
-            classList.push("cal__days cal__day--prev");
+            dateList.push(prevLastDate - prevDays + 1 + i);
+            classList.push("cal__day cal__day--prev");
         }
         else if (prevDays <= i && i < prevDays + thisDays) {
             dateList.push(i - prevDays + 1);
             if (i % 7 === 0) {
-                classList.push("cal__days cal__day--sun");
+                classList.push("cal__day cal__day--sun");
             }
             else if (i % 7 === 6) {
-                classList.push("cal_days cal__day--sat");
+                classList.push("cal_day cal__day--sat");
             }
             else {
-                classList.push("cal__days");
+                classList.push("cal__day");
             }
         }
         else {
             dateList.push(i - (prevDays + thisDays) + 1);
-            classList.push("cal__days cal__day--next");
+            classList.push("cal__day cal__day--next");
         }
     }
     //日付表示部のHTMLを編集する
