@@ -16,9 +16,15 @@ const onPageLoad = () => {
     updateView(currentDate);
 };
 /*前月移動処理*/
-const onPrev = () => { };
+const onPrev = () => {
+    currentDate.setMonth(currentDate.getMonth() - 1);
+    updateView(currentDate);
+};
 /*翌月移動処理*/
-const onNext = () => { };
+const onNext = () => {
+    currentDate.setMonth(currentDate.getMonth() + 1);
+    updateView(currentDate);
+};
 /*イベントリスナー*/
 /*ページの読み込み完了イベント*/
 window.addEventListener("load", onPageLoad);

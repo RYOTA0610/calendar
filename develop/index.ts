@@ -25,10 +25,16 @@ const onPageLoad = (): void => {
 };
 
 /*前月移動処理*/
-const onPrev = (): void => { };
+const onPrev = (): void => {
+  currentDate.setMonth(currentDate.getMonth() - 1);
+  updateView(currentDate);
+};
 
 /*翌月移動処理*/
-const onNext = ():void => { };
+const onNext = (): void => {
+  currentDate.setMonth(currentDate.getMonth() + 1);
+  updateView(currentDate);
+};
 
 /*イベントリスナー*/
 
