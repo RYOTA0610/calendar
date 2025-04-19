@@ -6,10 +6,9 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "./docs",     // コンパイル結果(.js)を docs フォルダ内に出力
-    "rootDir": "./docs"     // ソースコード(.ts)のルートを docs に設定 (オプション)
+    "outDir": "./docs",
+    "rootDir": "./docs"
   },
-  "include": ["docs/**/*.ts"], // docs フォルダ以下の全ての .ts ファイルを対象にする
-                              // または "include": ["docs/index.ts"] でもOK
+  "include": ["docs/**/*.ts"],
   "exclude": ["node_modules"]
 }
