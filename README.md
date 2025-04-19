@@ -4,7 +4,7 @@
 
 ## 概要
 
-月の切り替えが可能な万年カレンダーを実装したWebアプリケーションです。[図解！ TypeScriptのツボとコツがゼッタイにわかる本 “超”入門編](https://www.shuwasystem.co.jp/book/9784798067797.html) を参考に、TypeScriptの学習を目的として作成しました。
+月の切り替えが可能な万年カレンダーのWebアプリケーションです。[図解！ TypeScriptのツボとコツがゼッタイにわかる本 “超”入門編](https://www.shuwasystem.co.jp/book/9784798067797.html) を参考に、TypeScriptの学習を目的として作成しました。
 
 ## 主な機能
 
