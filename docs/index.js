@@ -1,3 +1,4 @@
+"use strict";
 /*グローバル変数*/
 /*表示中の年月*/
 const currentDate = new Date();
